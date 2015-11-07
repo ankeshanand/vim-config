@@ -47,7 +47,7 @@ let delimitMate_expand_cr = 1
 au FileType mail let b:delimitMate_autoclose = 0
 
 "Include the competative programing template at startup for C++ files"
-autocmd BufNewFile *.cpp r ~/code/ACM-ICPC\ Library/template.cpp
+autocmd BufNewFile *.cpp r ~/.vim/template.cpp
 
 set laststatus=2
 
